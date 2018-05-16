@@ -1,0 +1,4 @@
+#Wed May 16 14:40:47 KST 2018
+base.0=D\:\\Work_Test\\Proj_GradleTest\\ExportGradle\\Unity_GradleTest\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
