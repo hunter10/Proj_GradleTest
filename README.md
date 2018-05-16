@@ -11,11 +11,17 @@ Gradle 빌드시 큰 문제 3가지가 있었음
 3. 1,2번이 해결되고 나서 유니티에서 빌드시 빌드 실패하는 문제
 
     	com.android.build.api.transform.TransformException:
+	
 	com.android.ide.common.process.ProcessException:
+	
 	java.util.concurrent.ExecutionException:
+	
 	com.android.dex.DexException: Multiple dex files
+	
 	define Lcom/hunter10/gradletest/BuildConfig; See the 
+	
 	Console for detail;
+	
 
 해결책
 1. 안드로이드 스튜디오에서 그래들 버전이 문제였음. 3.1.0 -> 3.0.0 로 맞추니 잘됨. 빌드전 항상 Clean하는게 안전함.
